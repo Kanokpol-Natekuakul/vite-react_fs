@@ -1,0 +1,21 @@
+footer {
+    height: 64px;
+    background: linear-gradient(90deg, #6C47FF 0%, #00D2FF 100%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    box-shadow: 0 -2px 16px rgba(108,71,255,0.08);
+    border-radius: 24px 24px 0 0;
+}
+
+@media (max-width: 480px) {
+    footer {
+        font-size: 0.95rem;
+        height: 48px;
+        border-radius: 12px 12px 0 0;
+    }
+}
