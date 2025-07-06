@@ -57,7 +57,7 @@
 
 @media (max-width: 900px) {
     .services_list {
-        flex-direction: column;
+        
         gap: 24px;
         margin-top: 32px;
     }
